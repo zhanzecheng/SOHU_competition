@@ -80,6 +80,7 @@
 
 # 使用方式：
 * ```git clone https://github.com/zhanzecheng/SOHU_competition.git```
+* 下载新闻文本训练文件，放在 ```./data/```路径下，[地址](https://pan.baidu.com/s/12WZoc2SNOrwim6RpGw6KlQ)，图片文件过大，请自行去官网下载
 * 下载ocr模型文件，放在 ```./src/ocr/ctpn/checkpoints/ ```路径下，[模型地址](https://pan.baidu.com/s/1L6wx32sJEX01BEHf-ha_pw)
 * ```pip3 install -r requirement.txt```
 * 下载词向量，放到 ```./data ```目录下
