@@ -1,5 +1,5 @@
-# 简介【还在整理代码上传中】
-第二届搜狐内容识别大赛冠军LuckyRabbit团队的解决方案，关于参赛细节和详解，请参阅XXXX
+# 简介
+第二届搜狐内容识别大赛冠军LuckyRabbit团队的解决方案，关于参赛细节和详解，请参阅[说明文档](https://blog.csdn.net/qq_34695147/article/details/80992515)
 ## 代码流程
 整个代码分为数据预处理、特征提取、单模型、stacking模型融合、trick部分
     ![img](img/model.png)
@@ -79,13 +79,17 @@
 
 
 # 使用方式：
-* pip3 install -r requirement.txt
+* ```git clone https://github.com/zhanzecheng/SOHU_competition.git```
+* 下载ocr模型文件，放在 ```./src/ocr/ctpn/checkpoints/ ```路径下，[模型地址](https://pan.baidu.com/s/1L6wx32sJEX01BEHf-ha_pw)
+* ```pip3 install -r requirement.txt```
 * 下载词向量，放到 ```./data ```目录下
-* 执行 EDA&Extract.ipynb
-* 执行 train&predict.ipynb
-* 执行 stacking.ipynb
+* 执行 ```EDA&Extract.ipynb```
+* 执行 ```train&predict.ipynb```
+* 执行 ```stacking.ipynb```
 
 
 # 感谢
 
 感谢两位帅气的队友[HiYellowC](https://github.com/HiYellowC)和[yupeihua](https://github.com/yupeihua)
+
+这里还有我们的答辩[PPT](https://pan.baidu.com/s/1UF48Awpam_4gPAmyHcDYFQ)，如果需要的话自行下载
