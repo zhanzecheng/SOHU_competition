@@ -1,5 +1,5 @@
 # 简介
-第二届搜狐内容识别大赛冠军LuckyRabbit团队的解决方案，关于参赛细节和详解，请参阅[说明文档](https://blog.csdn.net/qq_34695147/article/details/80992515)
+第二届搜狐内容识别大赛冠军LuckyRabbit团队的解决方案，关于参赛细节和详解，请参阅[说明文档](https://blog.csdn.net/qq_34695147/article/details/81006059)
 ## 代码流程
 整个代码分为数据预处理、特征提取、单模型、stacking模型融合、trick部分
     ![img](img/model.png)
